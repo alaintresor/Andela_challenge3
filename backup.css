@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 5em;
+  margin-right: 5em;
+  display: flex;
+}
+
+.sect1 {
+  padding: 20px 50px 20px 50px;
+  width: 600px;
+  border: 1px dashed red;
+}
+.header {
+  margin-bottom: 20px;
+}
+
+.header .header_image {
+  width: 120px;
+  float: left;
+}
+.header .cta1 {
+  float: right;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  color: hsl(322, 100%, 66%);
+}
+
+.body {
+  padding: 50px 60px 50px 60px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.body p {
+  width: 300px;
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.cta2 {
+  padding: 10px 20px;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 20px;
+  margin: 20px 0;
+  color: white;
+}
+.sect1 img {
+  width: 400px;
+}
+.review {
+  display: flex;
+  flex-direction: row;
+}
+
+.review .formed .communityIcon {
+  width: 15px;
+}
+
+.review .message .messageIcon {
+  width: 15px;
+}
+
+.footer1 {
+  background-image: url("images/bg-section-top-desktop-1.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  height: 300px;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.footer1 .footer1_text p {
+  margin-top: 20px;
+  float: right;
+}
+
+.footer1 .footer1_img img {
+  width: 100px;
+  float: left;
+}
+
+.sect2 {
+  padding: 15px;
+  width: 600px;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.sect2 .conversation {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.conversation_img img {
+  width: 150px;
+  padding: 0px 10px 0px 10px;
+}
+
+.conversation .conversation_text {
+  padding: 0px 30px 0px 30px;
+}
+.conversation_text h2 {
+  font-size: 18px;
+  padding: 10px;
+}
+.conversation_text p {
+  font-size: 12px;
+  padding: 5px;
+}
+.users_img img {
+  width: 100px;
+  height: 70px;
+  padding-right: 30px;
+}
+
+.users .users_text {
+  padding: 0px 0px 0px 10px;
+}
+.users .users_text p {
+  font-size: 12px;
+  padding-right: 50px;
+}
+.sect2 .users {
+  display: flex;
+  height: 200px;
+  background-color: red;
+  border-radius: 5px 0px 15px 0px;
+  /* background-image: url("/images/bg-section-top-desktop-1.svg");
+} */
+}
+.sect2 .users .exploreCommunity {
+  justify-content: center;
+  padding: 30px;
+}
